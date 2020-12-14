@@ -1,0 +1,26 @@
+{
+  "name": "puzzle-service",
+  "version": "1.0.0",
+  "description": "Puzzle service",
+  "author": "Claudio Viola",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.3.0"
+  },
+  "bin": "./dist/index.js",
+  "scripts": {
+    "build:lib": "tsc",
+    "start": "node dist/app.js",
+    "start:dev": "ts-node src/app.ts"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "8.3.0",
+    "tsconfig-paths": "3.8.0",
+    "tslint": "5.19.0",
+    "typescript": "3.6.2"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.13",
+  }
+}
